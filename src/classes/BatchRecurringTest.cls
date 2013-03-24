@@ -14,7 +14,7 @@ private class BatchRecurringTest {
         npe03__Recurring_Donation__c d2 = new npe03__Recurring_Donation__c(npe03__Contact__c = c2.Id, CurrencyIsoCode = 'USD', npe03__Amount__c = 10, npe03__Installment_Period__c = 'Monthly', npe03__Installments__c = 12, npe03__Schedule_Type__c = 'Multiply By', Name = 'Recurring Donation - Test 2');
 
         donations.add(d1);
-        donations.add(d2);
+        donations.add(d2); 
 
         insert donations; 
 
