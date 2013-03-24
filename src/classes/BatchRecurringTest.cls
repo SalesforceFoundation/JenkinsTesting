@@ -15,7 +15,7 @@ private class BatchRecurringTest {
 
         donations.add(d1);
         donations.add(d2); 
- 
+  
         insert donations;     
 
         // assert that we have 12 opportunties related to the first recurring donation
