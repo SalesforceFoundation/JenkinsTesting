@@ -3,7 +3,7 @@ global class MyNewNamingClass extends npo02.HouseholdNaming{
     	string x = super.getHHName(clist);    	
     	system.debug('HERE I AM TO SAVE THE DAY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
     	system.debug(x);
-    	return 'Yo!';
+    	return 'Y3o!';
     }
 
     global override void updateNames(list<id> hhids){
