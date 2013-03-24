@@ -13,7 +13,7 @@ global class MyNewNamingClass extends npo02.HouseholdNaming{
         list<npo02__Household__c> hhupdatelist = [select Name, npo02__SYSTEM_CUSTOM_NAMING__c from npo02__Household__c where id IN : hhids];
         
         map<id, list<Contact>> hhIDContactMap = new map<id, list<Contact>>();
-        
+         
         //sort contacts by household
         for (Contact c : contactlist){          
             if(!hhIDContactMap.containskey(c.npo02__Household__r.id)){
