@@ -16,7 +16,7 @@ private class BatchRecurringTest {
         donations.add(d1);
         donations.add(d2); 
 
-        insert donations;   
+        insert donations;    
 
         // assert that we have 12 opportunties related to the first recurring donation
         List<AggregateResult> results = [SELECT count(Id) opp_count FROM Opportunity WHERE npe03__Recurring_Donation__c =: d1.Id];
