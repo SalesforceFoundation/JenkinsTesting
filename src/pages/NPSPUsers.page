@@ -1,0 +1,5 @@
+<apex:page >
+<apex:pageBlock >
+<iframe src="https://groups.google.com/forum/embed/?place=forum/nonprofit-starter-pack-users&showpopout=true&theme=default" style=" border-width:0 " width="1200" frameborder="0" height="750"></iframe>
+</apex:PageBlock>
+</apex:page>

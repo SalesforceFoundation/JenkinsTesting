@@ -1,0 +1,12 @@
+<apex:page >
+<apex:pageBlock >
+<apex:TabPanel switchtype="client" id="tabpanel" width="1200">
+<apex:tab label="Help" name="user_settings">
+<iframe src="http://salesforcefoundation.screenstepslive.com/spaces/npsp" style=" border-width:0 " width="1200" frameborder="0" height="1500"></iframe>
+</apex:tab>
+<apex:Tab label="More Help"/>
+
+
+</apex:TabPanel>
+</apex:pageblock>
+</apex:page>

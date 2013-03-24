@@ -1,0 +1,22 @@
+<apex:page >
+<apex:pageBlock >
+This is all about you succeeding with SFDC. 
+<apex:TabPanel switchtype="client" id="tabpanel" width="1200">
+<apex:tab label="Step 1" name="user_settings">
+<apex:form >
+<apex:outputLabel >Check to Confirm Acceptance</apex:outputLabel>
+<apex:inputCheckbox />
+<iframe src="http://salesforcefoundation.screenstepslive.com/s/npsp/m/contacts/l/20616-nonprofit-starter-pack-resources" style=" border-width:0 " width="1200" frameborder="0" height="1500"></iframe>
+</apex:form>
+</apex:tab>
+<apex:Tab label="Step 2"/>
+<apex:Tab label="Step 3"/>
+<apex:Tab label="Step 4"/>
+<apex:Tab label="Step 5"/>
+<apex:Tab label="Step 6"/>
+<apex:Tab label="Step 7"/>
+
+
+</apex:TabPanel>
+</apex:pageblock>
+</apex:page>
