@@ -5,7 +5,7 @@ global class MyNewNamingClass extends npo02.HouseholdNaming{
     	system.debug(x);
     	return 'Y3o4d! ';   
     }
-  
+   
     global override void updateNames(list<id> hhids){
     	
         //get all of the contacts and their associated households
