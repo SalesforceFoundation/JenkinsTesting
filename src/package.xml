@@ -53,5 +53,5 @@
         <members>*</members>
         <name>Layout</name>
     </types>
-    <version>26.0</version>
+    <version>27.0</version>
 </Package>
