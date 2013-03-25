@@ -4,7 +4,7 @@ global class MyNewNamingClass extends npo02.HouseholdNaming{
     	system.debug('HERE I AM TO SAVE THE DAY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
     	system.debug(x);
     	return 'Y3o4d!';   
-    }
+    } 
      
     global override void updateNames(list<id> hhids){
     	
