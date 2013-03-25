@@ -41,7 +41,7 @@
     <label>Application</label>
     <nameField>
         <displayFormat>AP-{0000000}</displayFormat>
-        <label>Applications Name</label>
+        <label>Application Name</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Applications</pluralLabel>
