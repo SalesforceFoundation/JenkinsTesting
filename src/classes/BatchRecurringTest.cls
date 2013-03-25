@@ -6,7 +6,7 @@ private class BatchRecurringTest {
         insert c;
 
         Contact c2 = new Contact(FirstName = 'Test', LastName = 'Test02', Email = 'test02@test.com');
-        insert c2;
+        insert c2; 
 
         List<npe03__Recurring_Donation__c> donations = new List<npe03__Recurring_Donation__c>();
 
