@@ -23,5 +23,5 @@ private class BatchRecurringTest {
         for (AggregateResult ar : results) {
             System.assertEquals(12, ar.get('opp_count'));   
         }
-    }
+    } 
 }
