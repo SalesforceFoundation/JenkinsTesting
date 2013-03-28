@@ -9,7 +9,7 @@ trigger SetAssignmentRule on Lead (before insert) {
     dml.assignmentRuleHeader.assignmentRuleId = ar.id;
     
     for (Lead l : trigger.new){
-    	l.setOptions(dml);    	
+    	l.setOptions(dml);    	 
     } 
  
 
