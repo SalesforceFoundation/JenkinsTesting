@@ -26,7 +26,7 @@ global class RecordTypes {
     global static String membershipRecordTypeNameForTests;    
         
     /*******************************************
-    * Gets record type maps for a new object
+    * Gets record type maps for a new object 
     ********************************************/
     static void fillMapsForObject(string objectName) {
         // get the object map the first time
